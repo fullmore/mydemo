@@ -1,0 +1,19 @@
+<template>
+    <div id="second">
+        <h1>I am another page</h1>
+        <a> written by {{ author }} </a>
+        <p> 感谢 <a href="https://github.com/showonne">showonne</a>大神的技术指导</p>
+    </div>
+</template>
+<style>
+</style>
+<script>
+    export default{
+        data(){
+            return{
+                author: "Mintmore",
+                articles: [],
+            }
+        }
+    }
+</script>
